@@ -2,7 +2,15 @@
 function beepBoop(numbr) {
   let result = [];
   if (numbr.constructor !== Number) {
-    return "You've made this day a special day, by just your being you. There's no person in the whole world like you, and I like you just the way you are... however... " + numbr + " is not a number."
+    return result = "'You've made this day a special day, by just your being you. There's no person in the whole world like you, and I like you just the way you are... however... " + numbr + " is not a number.'"
+  }
+
+  if (numbr > 143) {
+    return "'We get so wrapped up in numbers in our society. The most important thing is that we are able to be one-to-one, you and I with each other at the moment. If we can be present to the moment with the person that we happen to be with, that's what's important.'"
+  }
+
+  if (numbr === 143) {
+    return "I love you!!!  https://www.youtube.com/watch?v=X9sr1sAmvLY"
   }
 
   for (let i = 0; i <= numbr; i++) {

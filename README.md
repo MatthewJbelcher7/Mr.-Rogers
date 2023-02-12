@@ -14,12 +14,14 @@ _{This is a demonstration on how to use strings, loops and arrays with an emphas
 
 ## Setup/Installation Requirements
 
-_{"N/A" if setup/install not required}_
-
+* _Clone this repository to your desktop_
+* _Open index.html in your browser_
+* _Input a number to get a response that replaces certain numbers with a variety of robo responses_
 ## Known Bugs
 
 _{need to work out why my image wont scale to background}_
-_{need to test for more possible errors}_
+_{need to test for more possible errors based on user submit}_
+_{needs cleaner CSS/Html to style into desired appearance and add special interactions}_
 
 ## License
 
