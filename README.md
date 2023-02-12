@@ -22,6 +22,7 @@ _{This is a demonstration on how to use strings, loops and arrays with an emphas
 _{need to work out why my image wont scale to background}_
 _{need to test for more possible errors based on user submit}_
 _{needs cleaner CSS/Html to style into desired appearance and add special interactions}_
+_{broke my nan at the end of the night and need to re-address it}
 
 ## License
 

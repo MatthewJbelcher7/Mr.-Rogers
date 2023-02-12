@@ -2,7 +2,7 @@
 function beepBoop(numbr) {
   let result = [];
   if (numbr.constructor !== Number) {
-    return result = "'You've made this day a special day, by just your being you. There's no person in the whole world like you, and I like you just the way you are... however... " + numbr + " is not a number.'"
+    return result = "You've made this day a special day, by just your being you. There's no person in the whole world like you, and I like you just the way you are... however... " + numbr + " is not a number."
   }
 
   if (numbr > 143) {
