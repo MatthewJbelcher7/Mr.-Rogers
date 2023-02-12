@@ -18,7 +18,7 @@ _{"N/A" if setup/install not required}_
 
 ## Known Bugs
 
-_{"No known bugs" if none}_
+_{need to work out why my image wont scale to background}_
 
 ## License
 

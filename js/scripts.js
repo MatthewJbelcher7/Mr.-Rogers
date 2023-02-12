@@ -1,9 +1,8 @@
 // Buisness UI//
-
 function beepBoop(numbr) {
   let result = [];
   if (numbr.constructor !== Number) {
-    return "What are you doing Neighbor... " + numbr + " is not a number."
+    return "You've made this day a special day, by just your being you. There's no person in the whole world like you, and I like you just the way you are... however... " + numbr + " is not a number."
   }
 
   for (let i = 0; i <= numbr; i++) {
@@ -20,3 +19,5 @@ function beepBoop(numbr) {
   }
   return result;
 }
+
+
