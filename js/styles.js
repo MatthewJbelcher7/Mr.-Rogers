@@ -10,6 +10,7 @@ function beepBoop(number) {
     } else if (i.toString().includes("1")) {
       result.push("Beep");
       console.log(result)
+    } else if (i.toString().includes("null")) {
     } else {
     result.push(i);
     } 
