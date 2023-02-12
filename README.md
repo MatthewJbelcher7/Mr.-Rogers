@@ -48,4 +48,4 @@ Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor"]
 
 Test: "It will return an error if anythign but a number is entered"
 Code: beepBoop("one")
-Expected Output: ["What are you doing neighbor"]
+Expected Output: "What are you doing neighbor"
