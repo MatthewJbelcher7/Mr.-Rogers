@@ -12,7 +12,6 @@ function beepBoop(numbr) {
       result.push("Boop");
     } else if (i.toString().includes("1")) {
       result.push("Beep");
-      console.log(result)
     } else {
     result.push(i);
     } 
@@ -20,4 +19,12 @@ function beepBoop(numbr) {
   return result;
 }
 
+// User Interface//
+document.querySelector("input[type=button]").addEventListener("click", roboRogers);
 
+function roboRogers() {
+  let numbr = document.getElementById("number").value;
+  numbr = parseInt(numbr);
+  document.getElementById("result").innerHTML = beepBoop(numbr);
+  console.log(document.getElementById("result").innerHTML);
+}

@@ -19,6 +19,7 @@ _{"N/A" if setup/install not required}_
 ## Known Bugs
 
 _{need to work out why my image wont scale to background}_
+_{need to test for more possible errors}_
 
 ## License
 
@@ -49,3 +50,10 @@ Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor"]
 Test: "It will return an error if anythign but a number is entered"
 Code: beepBoop("one")
 Expected Output: "What are you doing neighbor"
+
+
+<!-- Describe: roboRogers()
+
+Test: Don't Test UI
+Code: Nevermind
+Expected Output: -->
